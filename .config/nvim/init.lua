@@ -35,7 +35,8 @@ require("lazy").setup({
 })
 
 vim.cmd([[inoremap <silent><expr> <CR> coc#pum#visible() ? coc#pum#confirm() : "\<CR>"]])
-vim.cmd([[colorscheme dark-kali]])
+vim.cmd([[set background=dark]])
+vim.cmd([[colorscheme gruvbox]])
 vim.cmd([[set mouse=a]])
 
 vim.cmd([[nmap ; <Right>]])
