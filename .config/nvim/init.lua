@@ -39,11 +39,10 @@ vim.cmd([[set background=dark]])
 vim.cmd([[colorscheme gruvbox]])
 vim.cmd([[set mouse=a]])
 
-vim.cmd([[nmap ; <Right>]])
-vim.cmd([[nmap l <Up>]])
-vim.cmd([[nmap k <Down>]])
-vim.cmd([[nmap j <Left>]])
-
+vim.cmd([[noremap ; l]])
+vim.cmd([[noremap l k]])
+vim.cmd([[noremap k j]])
+vim.cmd([[noremap j h]])
 
 vim.cmd([[syntax on]])
 vim.cmd([[set number]])
