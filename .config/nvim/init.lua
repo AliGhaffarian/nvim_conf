@@ -25,6 +25,7 @@ vim.g.maplocalleader = "\\"
 require("lazy").setup({
   spec = {
 	  "ervandew/supertab",
+	  "ThePrimeagen/vim-be-good",
 	  "neoclide/coc.nvim",
   },
   -- Configure any other settings here. See the documentation for more details.
