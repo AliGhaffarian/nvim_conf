@@ -1,14 +1,6 @@
-"languageserver": {
-  "bash": {
-    "command": "shellcheck",
-    "filetypes": ["sh"]
-  },
-  "golang": {
-    "command": "gopls",
-    "rootPatterns": ["go.mod"],
-    "filetypes": ["go"]
-  },
-  "clangd": {
-    "args": ["-header-insertion=never"]
-  }
+{
+  "clangd.arguments": [
+    "--header-insertion=never"
+  ]
 }
+
