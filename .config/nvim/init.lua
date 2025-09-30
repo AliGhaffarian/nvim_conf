@@ -55,6 +55,10 @@ vim.cmd([[set background=dark]])
 vim.cmd([[colorscheme gruvbox]])
 vim.cmd([[set mouse=a]])
 
+vim.cmd([[set expandtab]])
+vim.cmd([[set shiftwidth=4]])
+vim.cmd([[set list]])
+vim.cmd([[set listchars=tab:>-]])
 
 vim.cmd([[syntax on]])
 vim.cmd([[set number]])
